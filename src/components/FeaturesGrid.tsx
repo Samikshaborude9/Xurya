@@ -57,11 +57,11 @@ export default function FeaturesGrid() {
           with the best materials and service
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-left ">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all"
+              className="bg-white p-6  shadow hover:shadow-lg transition-all rounded-xl"
             >
               <div className="mb-4">{feature.icon}</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">

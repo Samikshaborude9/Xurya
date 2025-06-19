@@ -17,11 +17,11 @@ export default function TrustedService() {
           <h2 className="text-3xl font-bold text-gray-800 mb-2">
             Trusted service, <span className="text-gray-500 font-medium">for your various needs</span>
           </h2>
-          <Button className="mt-4 bg-green-600 text-white hover:bg-green-700">Get in touch</Button>
+          <Button className="mt-4 bg-green-600 text-white hover:bg-green-700 rounded-xl">Get in touch</Button>
 
-          <div className="grid grid-cols-2 gap-4 mt-8">
+          <div className="grid grid-cols-2 gap-4 mt-8 ">
             {services.map((service, index) => (
-              <div key={index} className="border p-4 rounded-lg hover:shadow-md transition">
+              <div key={index} className="border p-4  hover:shadow-md transition rounded-xl">
                 <p className="font-medium text-gray-800 mb-1">{`0${index + 1}`}</p>
                 <p className="text-gray-700 text-sm">{service}</p>
                 <p className="mt-2 text-sm text-green-600 font-medium cursor-pointer">View Details</p>

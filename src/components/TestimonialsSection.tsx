@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
             <CarouselContent>
               {testimonials.map((t, i) => (
                 <CarouselItem key={i} className="p-4">
-                  <div className="bg-white p-6 rounded-lg shadow-md text-left h-full">
+                  <div className="bg-white p-6 rounded-xl shadow-md text-left h-full">
                     <p className="text-gray-700 italic mb-4">"{t.quote}"</p>
                     <h4 className="text-green-600 font-semibold">{t.name}</h4>
                     <p className="text-sm text-gray-500">{t.role}</p>
