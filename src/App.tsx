@@ -1,14 +1,12 @@
-
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import TrustedBy from './components/trustedby'
+import TrustedBy from './components/TrustedBy'
 import FeaturesGrid from './components/FeaturesGrid'
 import TrustedService from './components/TrustedServices'
 import TestimonialsSection from './components/TestimonialsSection'
 import Footer from './components/Footer'
 function App() {
-
 
   return (
     <>
